@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+
+<!-- HTML5 ( 원래 이 자리에 버전 정보들이 있음 ) -->
+<!-- 쓰지 않으면 자동으로 HTML5 버전으로 설정 됨 -->
+
+<!-- 
+
+  <xxx> : HTML 문법의 형태 (Opening Tag, 시작 태그)
+    yyy : 텍스트(내용)
+  </xxx> : HTML 문법의 형태 (Closing Tag, 종료 태그)
+
+--- 위의 한 세트를 DOM객체 (Document Object Model) ---
+
+  HTML (Hyper Text Markup Language)
+    - DOM 객체들로 구성이 되어있음.
+    - 홈페이지 뼈대를 구성하는 ' 디자인 ' 언어
+
+------------------------------------------------------
+
+컴파일러 (한꺼번에 번역시킨 후 실행 -> 에러 터지면 그 부분만 잡아주면 됨)
+  1. Java - 컴파일 - 기계어 번역 (.class) -> 실행
+  2. Go - 컴파일 - 기계어 번역 (.exe) -> 실행
+  => 전체 파일을 번역 시킨 후 실행함.
+
+인터프리터 (실행하면 위에서부터 한줄씩 번역함 -> 
+              1. 에러 터지면 그냥 그 부분 실행안하고 지나감
+              2. 에러가 안나기 때문에 실행이 어떻게 될지 모름)
+              3. 에러 찾기가 쉽지가 않음.
+
+-->
+
+<html lang="en">
+
+<!-- 중간에 띄어쓰기 많이하면 오히려 가독성 떨어짐 -->
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  html - 홈페이지 뼈대 <br>
+  css - 디자인 처리 <br><br>  
+  javaScript - 이벤트 처리
+
+  <p>문단 나눌때</p>
+  
+  <button id="Gu" a hert="HTML02">버튼</button>
+
+  <script>
+
+    document.getElementById('Gu').style.fontSize="30px";
+    document.getElementById('Gu').innerHTML="HTML02링크";
+
+  </script>
+  
+</body>
+</html>

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html 수업</title>
+</head>
+<body>
+
+  br은 한줄 바꾸기<br>
+  ht은 가로선, 한줄 바꾸기<hr>
+  p는 단락<p>
+  <p>
+  <b>HTML</b>(HyperText Markup Language)은 웹을 이루는 가장 기초적인 구성 요소로, <br>
+  웹 콘텐츠의 의미와 구조를 정의할 때 사용합니다. 
+  HTML 이외의 다른 기술은 일반적으로 웹 페이지의 모양/표현 (CSS), 
+  또는 기능/동작 (JavaScript)을 설명하는 데 사용됩니다. 
+  </p>
+  <p>
+  "Hypertext(하이퍼텍스트)"란 웹 페이지를 다른 페이지로 연결하는 링크를 말합니다. 
+  링크는 웹의 근본적인 속성으로, 
+  인터넷에 자료를 올리고 다른 사람이 만든 페이지로 링크함으로써 여러분도 월드 와이드 웹 세계의 능동적인 일원이 될 수 있습니다.<br>
+  </p>
+
+  띄어  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 쓰기 <br>
+  a > b <br>
+  a < b <hr> 
+
+  a < b <br>
+  a > b <hr>
+
+  <!-- a less than b : a가 b보다 작다 -->
+  a&lt;b
+
+  <!-- a hreater then b : a가 b보다 크다 -->
+  a&gt;b
+
+  <hr>
+
+  <!-- 
+    html 내에서 폰트를 꾸미는 방법.
+    1. font 라는 친구로 꾸민다.
+    2. 이 기능에는 한계가 있다. ex) size = 7 이 max
+  -->
+  <font size="7px" face="궁서" color="blue">텍스트 꾸미기</font>
+
+  <!-- h 시리즈를 통해 자동 볼드, 자동 줄바꿈, 자동 사이즈조절로 제목용 텍스트를 작성한다. -->
+  <h1>제목용 (가장 큰)</h1>
+  <h6>제목용 (가장 작은)</h6>
+
+  <h2>강의순서</h2>
+  <!-- 순서가 있는 리스트를 작성 : 타입지정으로 순서를 표시 함 -->
+  <ol type="I"> 
+    <li>HTML</li>    
+    <li>CSS</li>
+    <li>JavaScript</li>
+  </ol>
+
+  <hr>
+  <h2>점심메뉴</h2> 
+  <!-- 순서가 없는 리스트를 작성 : 점으로 표시 됨 -->
+  <!-- 얘를 바꿔주려면 CSS로 바꿔줘야 함 -->
+  <ul style="list-style: inside;">
+    <li>쌀국수</li>
+    <li>감자탕</li>
+    <li>볶음밥</li>
+  </ul>
+
+  <!-- 움직이는 텍스트 -->
+  <marquee behavior="alternate" bgcolor="red">Hello HTML</marquee>
+
+</body>
+</html>
