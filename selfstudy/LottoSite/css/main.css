@@ -1,0 +1,22 @@
+body {
+    margin: 0;
+    padding: 0;   
+    text-align: center;
+}
+
+#title {
+    position: fixed;
+    width: 100%;
+}
+
+#result {
+    padding-top: 100px;
+    width: 100%;
+}
+
+.LottoNum {
+    background-color: red;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
