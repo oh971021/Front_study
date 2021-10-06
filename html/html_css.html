@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>html_css 수업</title>
+</head>
+
+<!-- 
+    1. CSS(Cascading Style Sheet)
+      - html의 DOM객체에 디자인을 입힐 수 있는 언어
+
+      - 선택자 {
+            속성명 : 값,
+            속성명 : 값,
+            ...
+        }
+
+      - 기본형
+            태그명: 그거 다
+            #id: id가 그거인 객체
+            .class: class가 그거인 객체'들'
+
+      - 상태형
+            기본형: 상태
+
+      - 조합형
+-->
+
+<!-- Style 태그 안에 써지는 문법은 CSS를 작성한다. -->
+<style>
+  
+  h2 { /* 선택자 : h2 */
+    color: aquamarine;
+  }
+  h3 {
+    color: crimson;
+    font-size: 30pt;
+  }
+  h1 {
+    color: darkorange;
+  }
+  #hehe { /* 선택자가 id인 경우 #으로 호출 */
+    color: yellow;
+  }
+  .keke { /* 선택자가 class인 경우 .으로 호출 */
+    color: blue;
+  }
+  #blue {
+    background-color: darkgrey;
+  }
+  span2 {
+    font-size: 50pt;
+    color: red;
+  }
+  h1 span3 {
+    font-size: 20pt;
+  }
+
+  p { 
+    /* 마우스로 꾹 눌렀을 때 active로 활성화 됨 */
+    transition: font-size 1s ease-in;
+  }  
+  p:hover {  /* hover : 마우스를 올려놨을 때 반응하도록 */
+    color:blueviolet;
+  }
+  p:active { /* active : 마우스로 클릭했을 때 반응한다 */
+    font-size: 20pt;
+    color: blue;
+  }
+
+</style>
+<body>
+
+  <h2>HTML : 뼈대</h2>
+  <h2>CSS : 디자인</h2>
+  <!-- 
+    태그 안에 태그를 사용할 때 보통  Span 을 쓴다.
+    span은 아무 기능이 없음.
+  -->
+  <h3>Java <span id='blue'>Script</span> : 이벤트</h3>
+
+  <h1 class="keke">CSS도 금방 끝나요</h1>
+  <h1 class="keke">곧 점심시간이니까</h1>
+
+  <!-- span 태그는 넘버링으로 나눠서 사용할 수 있다. -->
+  <h1 id="hehe">조금만 <span2>힘</span2>내봅시다</h1>
+  <h1>근데 
+    <span3>어렵진 않죠?</span3> 
+  </h1>
+  
+  <hr>
+
+  <!-- 저 위에서 '힘' 이라는 글자만 50pt에 빨간색으로 -->
+
+  <p> 곧 점심이네요 </p>
+
+</body>
+</html>

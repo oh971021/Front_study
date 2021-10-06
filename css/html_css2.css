@@ -1,0 +1,44 @@
+a {
+  font-size: 60pt;
+}
+
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: aqua;
+}
+
+a:link { /* 링크를 사용하기 전 */
+  color: violet;
+}
+
+a:visited { /* 링크를 사용했을 때 */
+  color: gold;
+}
+
+a,p {
+  background-color: green;
+}
+
+p .a2 {
+  font-weight: 900;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+  border-color: red; /* 선 굵기 */
+  border-width: 10px; /* 선의 크기 */
+  border-radius: 50px; /* 맺음새처리 */
+  font-size: 25pt; /* textbox 안의 폰트크기 */
+  margin: 10px; /* 주변 띄우기 */
+}
+
+input:focus { /* TextBox를 클릭했을 때 혹은 글을 입력할 때 */
+  background-color: khaki;
+  outline-color: blueviolet;
+  width: 210px;
+  height: 60px;
+}
