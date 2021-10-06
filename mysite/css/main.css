@@ -1,12 +1,72 @@
+body {
+    /* 기본여백 없애기 */
+    margin: 0px;
+    padding: 0px;
+    background: lightpink;
+}
+
+#siteTable {
+    position: fixed;
+
+    top: 0px;
+    width: 100%;
+
+    background-color: lightpink;
+}
+
+#siteTitle {
+    background-color: violet;
+    color: black;
+    font-size: 20pt;
+    height: 60px;
+    font-weight: 100%;
+    font-weight: 900;
+}
+
+#siteTitle:hover {
+    color: yellow;
+}
+
+#siteMenuTable {
+    width: 100%;
+    height: 50px;
+}
+
+#contentsTable {
+    margin-top: 127px;
+    width: 100%;
+    height: 650px;
+    /* 백그라운드 색상을 따라가는 것 */
+    /* background-color: inherit; */
+    background-color: pink;
+}
+
 td {
     text-align: center;
 }
 
-#menu {
-    height: 10%;
+#titleImg {
+    width: 80%;
+    border-radius: 100px;
+    box-shadow: 25px 25px 15px ;
 }
 
-#song {
-    width: 100%;
-    height: 100%;
+.menuClass {
+    color: red;
+    text-decoration: none;
+}
+
+.menuClass:link {
+    color: blue;
+    text-decoration: none;
+}
+
+.menuClass:visited {
+    color: red;
+}
+
+.menuClass:hover {
+    color: hotpink;
+    font-size: 20px;
+    transition: font-size 0.3s ease-in;
 }

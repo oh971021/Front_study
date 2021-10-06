@@ -8,26 +8,32 @@
   <title>Document</title>
 </head>
 <body>
-  <table border="1" width="1000px" height="700px">
+
+  <table id="siteTable">
     <tr>
-      <td>JunSeok's WebSite</td>
+      <td id="siteTitle">JunSeok's WebSite</td>
     </tr>
-    <tr id="menu">
+    <tr>
       <td>
-        <table border="1">
+        <!-- 테이블안에 테이블을 생성해서 전체적인 크기에는 변화가 안가게 한다. -->
+        <table id="siteMenuTable">
           <tr>
-            <td>메뉴1</td>
-            <td>메뉴2</td>
-            <td>메뉴3</td>
+            <td><a href="" class="menuClass">Menu1</a></td>
+            <td><a href="" class="menuClass">Menu2</a></td>
+            <td><a href="" class="menuClass">Menu3</a></td>
+            <td><a href="https://www.naver.com" class="menuClass">네이버로</a></td>
           </tr>
         </table>
       </td>
     </tr>
-    <tr>
-      <td colspan="4">
-        <embed id="song" src="../video/개미송.m" type="">
-      </td>
-    </tr>
+  </table>
+
+  <table id="contentsTable">
+  <tr>
+    <td>
+      <img id="titleImg" src="../image/ZZanggu1.jpg" alt="">
+    </td>
+  </tr>
   </table>
 </body>
 </html>
