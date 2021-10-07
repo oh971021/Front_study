@@ -4,9 +4,9 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="../LottoSite/css/main.css">
     <title>Junseok's Lotto</title>
-        <script>
+        <script> 
         //로또 한게임생성
-
+        
         //1. 로또 번호는 6개
         var lotto = [];  //6개로 값이 나열될것이기 때문에 배열처리 - 값은 담지 않음
         //6번처리 - 반복문
@@ -19,13 +19,17 @@
             //lotto라는 배열에 담긴 숫자와 같이 같으면 안됨
             for(var j in lotto){
                 if(num == lotto[j]){ //현재 새로나온 숫자가 기존 숫자와 같으면
-                    num = Math.floor(Math.random() * 44) + 1;
-                }
+                num = Math.floor(Math.random() * 44) + 1;
             }
+        }
             //push() - 배열에 마지막에 값추가메서드
             lotto.push(num);
         }
-        </script>
+        function button1_click() {
+            console.log("버튼을 누르셨습니다.");
+            document.write(lotto);
+        }
+    </script>
 </head>
 <body>
     <div id="title" style="background-color: red;">
@@ -34,12 +38,9 @@
     <div id="result">
         <span id="user">
             <input type="date">
-            <button>입력</button>
+            <button id="button1" onclick="button1_click();">입력</button>
         </span>
         <h3>행운의 번호</h3>
-        <script>
-            document.write(lotto);
-        </script>
     </div>
 </body>
 </html>
