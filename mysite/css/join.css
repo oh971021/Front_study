@@ -1,0 +1,18 @@
+#joinTable {
+    /* 선 굵기와 선 스타일, 선 색상 */
+    border: 3px dotted blue;
+    width: 400px;
+    height: 300px;
+    background-color: thistle;
+
+    /* 컨텐츠 중앙정렬 */
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.joinTd {
+    color: black;
+    font-size: 15pt;
+    font-weight: 600;
+    padding: 10px;
+}

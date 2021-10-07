@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/join.css">
+  <title>인적사항</title>
+</head>
+<body>
+
+  <table id="siteTable">
+    <tr>
+      <td id="siteTitle">
+        <a href="index.html">JunSeok's WebSite</a>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        <!-- 테이블안에 테이블을 생성해서 전체적인 크기에는 변화가 안가게 한다. -->
+        <table id="siteMenuTable">
+          <tr>
+            <td><a href="menu.html" class="menuClass">메뉴</a></td>
+            <td><a href="join.html" class="menuClass">가입</a></td>
+            <td><a href="slide.html" class="menuClass">슬라이드</a></td>
+            <td><a href="https://www.naver.com" class="menuClass">네이버로</a></td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+
+  <table id="contentsTable">
+  <tr>
+    <td>
+      <table id="joinTable">
+        <tr>
+          <td class="joinTd">이름</td>
+          <td> <input type="text"> </td>
+        </tr>
+        <tr>
+          <td class="joinTd">생년월일</td>
+          <td> <input type="date"> </td>
+        </tr>
+        <tr>
+          <td class="joinTd">나이</td>
+          <td> <input type="number"> </td>
+        </tr>
+        <tr>
+          <td class="joinTd">성별</td>
+          <td> 남 <input type="radio">
+              여 <input type="radio"> </td>
+        </tr>
+        <tr>
+          <td class="joinTd">주소</td>
+          <td> <select name="" id=""> 
+            <option value="">서울</option>  
+            <option value="">경기</option>  
+            <option value="">대전</option>  
+            <option value="">대구</option>  
+            <option value="">부산</option>  
+          </select> </td>
+        </tr>
+        <tr>
+          <td class="joinTd">취미</td>
+          <td> 운동 <input type="checkbox">
+              요리 <input type="checkbox">
+              영화 <input type="checkbox">
+              게임 <input type="checkbox"> </td>
+            </tr>
+            <tr>
+              <td class="joinTd">프사</td>
+              <td> <input type="file"> </td>
+            </tr>
+            <tr>
+              <td>
+                <button id="result">제출</button>
+              </td>
+            </tr>
+          </table>
+    </td>
+  </tr>
+  
+  </table>
+</body>
+</html>
