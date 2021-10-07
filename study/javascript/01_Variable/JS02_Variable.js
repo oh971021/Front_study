@@ -11,11 +11,11 @@
     JS의 변수선언
 
     1. Let 
-        - 
+        - var와 같은 기능이지만 Scope가 다름
 
     2. Var 
         - global Scope (Hoisting) : 
-        - 
+        - 어디서든 사용가능한 문제점이 있다.
 */
 
 console.log('-------------------');
@@ -26,8 +26,27 @@ console.log(whyDontUse);
 
 console.log('-------------------');
 
+var test;
+console.log(test);
+
+console.log('-------------------');
+
+{
+    // Let 은 블럭 밖에서 사용 불가능하지만
+    // let whyDontUse2;
+    // Var 는 어디에 위치하든 어디서든 사용 가능하다.
+    var whyDontUse2;
+    whyDontUse2 = 2222;
+    console.log(whyDontUse2);
+}
+
+console.log(whyDontUse2);
+
+console.log('-------------------');
+
 // 이름, 나이, 키를 저장 후 콘솔에 출력
 
+let myName = "오준석";
 let myAge = 25;
 let myHeight = 178;
 
@@ -68,3 +87,24 @@ console.log(e.replace('are', 'r'));
 console.log(e);
 
 // --------------------------------- //
+
+// boolean
+
+console.log('-------------------');
+
+let r = true;
+let t = false;
+
+console.log(typeof r);
+
+let rt = 3 > 5;
+console.log(rt);
+
+console.log('-------------------');
+
+// 이름 : ㅇㅇ
+// 나이 : ㅇㅇ
+
+console.log("이름 : "+myName, "\n나이 : "+myAge);
+
+console.log('-------------------');
