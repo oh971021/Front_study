@@ -22,4 +22,14 @@ if (score >= 80)  {
     console.log("중");
 } else {
     console.log("하");
+
 }
+//printf
+//%s,
+
+let a = 6;
+let b = '혜헤'
+
+if(a % 2 == 0){
+    console.log(a + '는 짝수다' + b)
+    console.log(`${a}는 짝수다${b}`)
