@@ -49,3 +49,17 @@ function printGugudan2() {
     // 그래서 어딘가로 사라지지않고 머무르기 위해서
     return false;
 }
+
+function printGugudan3() {    
+    let myInput = document.getElementById('i2');
+    let myValue = myInput.value;
+
+    //    alert(myInput);
+
+    for (let i = 1; i < 10; i++) {
+        console.log(myValue + ' x ' + i + ' = ' + myValue*i)
+    }
+
+    myInput.value = "";
+    myInput.focus();
+}
