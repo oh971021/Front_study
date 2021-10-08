@@ -16,5 +16,13 @@
     document.getElementById('GDbutton').style.backgroundColor='blueviolet';
     document.getElementById('GDbutton').style.color='white';
     ">구구단 가자</button>
+
+    <!-- form 태그 안에 이벤트를 통해 submit : 제출하다 -->
+    <!-- form 은 자기가 가지고 있는 모든 이벤트를 모아서 실행한다. -->
+    <form name="myForm" onsubmit="return printGugudan2()">
+        <input name="i1">
+        <button>단 출력</button>
+    </form>
+
 </body>
 </html>
