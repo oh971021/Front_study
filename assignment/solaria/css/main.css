@@ -36,14 +36,6 @@ a {
     text-decoration: none;
 }
 
-a:hover {
-    color: red;
-}
-
-a:active {
-    color: red;
-}
-
 a:link {
     color: black;
 }
