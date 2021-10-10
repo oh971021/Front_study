@@ -6,11 +6,94 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+
+    <script>
+    $(document).ready(function(){
+        $('.slider').bxSlider({
+            mode: 'fade',
+            auto: true,
+            autoControls: false,
+            stopAutoOnClick: true,
+            pager: false,
+            slideWidth: 5000
+        });
+    });
+    </script>
+
+    <title>솔라리아 호텔스~</title>
+
 </head>
 <body>
-    <table>
-        
+    <!-- 로고 및 메뉴 -->
+    <table id="logo">
+        <tr>
+            <td>
+                <img src="image/Solraria.jpg" alt="Solraria" style="width: 170px;">
+            </td>
+        </tr>
     </table>
+    <hr class="boldLine">
+    <table>
+        <tr>
+            <td class="menu">
+                About
+            </td>
+            <td class="menu">
+                Accommodation
+            </td>
+            <td class="menu">
+                Special Offer
+            </td>
+            <td class="menu">
+                Promotion
+            </td>
+            <td class="menu">
+                Facilities
+            </td>
+            <td class="menu">
+                Members
+            </td>
+            <td class="menu">
+                Location
+            </td>
+            <td class="menu">
+                <img src="image/예약하기.jpg" alt="예약하기">
+            </td>
+        </tr>
+    </table>
+
+    <hr class="boldLine">
+
+    <!-- 슬라이더 -->
+    <table border="1">
+        <div class="slider">
+            <div><img src="image/1.jpg"></div>
+            <div><img src="image/2.jpg"></div>
+            <div><img src="image/3.jpg""></div>
+        </div>
+    </table>
+
+    <!-- 솔라리아 프로모션 -->
+    <table  border="1">
+        <tr>
+            <td>
+                솔라리아 니스테츠 호텔 서울 명동에서 드리는 특별한 제안
+            </td>
+        </tr>
+        <tr>
+            <td>
+                + 더보기
+            </td>
+        </tr>
+    </table>
+
+    <hr class="lightLine">
+
+
 </body>
 </html>

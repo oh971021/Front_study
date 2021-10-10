@@ -1,0 +1,33 @@
+/* Main css : 전체적인 구성 및 틀을 잡는 CSS */
+
+body {
+    margin: 0%;
+    padding: 0%;
+}
+
+table {
+    margin: auto;
+}
+
+#logo {
+    margin-top: 20px;
+}
+
+.menu {
+    padding: 15px;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 15pt;
+    font-style: unset;
+    font-weight: 600;
+}
+
+.bx-wrapper {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slider {
+    margin: 0%;
+}
