@@ -31,3 +31,23 @@ table {
 .slider {
     margin: 0%;
 }
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: red;
+}
+
+a:link {
+    color: black;
+}
+
+a:visited { /* 링크를 사용했을 때 */
+    color: black;
+}
