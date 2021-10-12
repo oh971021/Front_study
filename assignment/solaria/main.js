@@ -9,6 +9,7 @@ function onMouse() {
     mouse.style.backgroundImage="url('img/promotion_1-1')";
 }
 
+
 function outMouse() {
     let mouse;
     mouse=document.getElementsByClassName("promotionImg");

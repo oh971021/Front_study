@@ -3,6 +3,12 @@ hr {
     background: black;
 }
 
+#line {
+    padding: 200px;
+    background-color: white;
+    border: none;
+}
+
 .hr-sect {
     display: flex;
     flex-basis: 100%;
