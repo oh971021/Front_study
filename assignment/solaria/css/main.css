@@ -11,11 +11,12 @@ table {
     border-spacing: 10px;
 }
 
-#solMenu {
+/* #solMenu {
     position: fixed;
     width: 100%;
     transform: translateX(-10%);
-}
+    background: white;
+} */
 
 #logo {
     margin-top: 20px;
@@ -28,10 +29,6 @@ table {
     font-size: 13pt;
     font-style: unset;
     font-weight: 600;
-}
-
-.bxslider {
-    padding-top: 300px;
 }
 
 .bx-wrapper {
@@ -85,4 +82,28 @@ li {
     padding-top:50px; 
     padding-bottom: 50px;
     width:100%; 
+}
+
+.lastLink {
+    text-align: center;
+    font-size: 18pt;
+    color: gray;
+}
+
+.lastMenu {
+    background: gray;
+}
+
+footer {
+    background: rgb(99, 95, 95);
+}
+
+#footText1 {
+    color: rgb(157, 169, 153);
+    font-size: 12pt;
+    text-align: center;
+}
+
+.footText2 {
+    color: white;
 }
