@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/line.css">
     <script src="main.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
@@ -20,7 +21,7 @@
             autoControls: false,
             stopAutoOnClick: true,
             pager: false,
-            slideWidth: 4000
+            slideWidth: 4000,
         });
     });
     </script>
@@ -33,11 +34,13 @@
     <table id="logo">
         <tr>
             <td>
-                <img src="image/Solaria.jpg" alt="Solaria" style="width: 170px;">
+                <form action="index.html">
+                    <img src="image/Solaria.jpg" alt="Solaria" style="width: 170px;" onclick="home()">
+                </form>
             </td>
         </tr>
     </table>
-    <hr class="boldLine">
+    <hr>
     <table>
         <tr>
             <td class="menu">
@@ -67,10 +70,10 @@
         </tr>
     </table>
 
-    <hr class="boldLine">
+    <hr>
 
     <!-- 슬라이더 -->
-    <table border="1">
+    <table border="0">
         <div class="slider">
             <div><img src="image/1.jpg"></div>
             <div><img src="image/2.jpg"></div>
@@ -79,20 +82,221 @@
     </table>
 
     <!-- 솔라리아 프로모션 -->
-    <table  border="1">
+    <table  width="100%">
         <tr>
-            <td>
+            <td class="hr-sect">
                 솔라리아 니스테츠 호텔 서울 명동에서 드리는 특별한 제안
             </td>
         </tr>
         <tr>
-            <td>
-                + 더보기
+            <td style="
+            text-align: right;
+            padding: 10px">
+            + 더보기
+        </td>
+    </tr>
+</table>
+
+<hr class="hr-sub">
+
+<!-- 프로모션 메뉴 -->
+<table width="100%">
+    <tr height="283px">
+        <td style="
+            background-image:url('image/promotion_1.jpg');
+            background-repeat: no-repeat;
+            width: 33%;
+        ">
+        </td>
+        <td style="
+            background-image:url('image/promotion_2.jpg');
+            background-repeat: no-repeat;
+            width: 33%;
+        ">
+        </td>
+        <td style="
+            background-image:url('image/promotion_3.jpg');
+            background-repeat: no-repeat;
+            width: 33%;
+        ">
+        </td>   
+    </tr>
+    <tr style="
+        text-align: center;
+        font-size:13pt;
+        background-color: rgba(218,219,186);
+        height: 40px;
+    ">
+        <td>
+            <b>뷰(view+beauty)캉스</b>
+        </td>
+        <td>
+            <b>폴 인 솔라리아</b>
+        </td>
+        <td>
+            <b>나홀로 호캉스 [힐링에 진심]</b>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <b><font color="green">도심</font></b>의 전망 좋은 <b><font color="coral">고층</font></b> 객실에서<br>
+            반복되는 일과는 잠시 내려두고<br>
+            <b><font color="coral">아름다운 뷰</font></b> 와 함께 <b>힐링</b>을 경험해보세요<br>
+            <br>
+            고객님을 위해 준비한 선물인<br>
+            <b><font color="green">뷰티 힐링 패키지</font></b>로<br>
+            <b><font color="coral">뷰(view+beauty)캉스</font></b>를 누려보세요.
+        </td>
+        <td>
+            오사카에서 먹던 바로 그 맛! <br>
+            후게츠 명동점에서 <font color="yellow">오코노미야키</font> 먹고! <br>
+            욕조에 향긋한 <font color="violet">버블바</font>를 풀고 힐링하고! <br>
+            <br>
+            올 가을 <font color="yellow">솔라리아</font>에 푹 빠져보세요<br>
+            (숙박 기간 : 9월 1일 ~ ) <br>
+            <br>
+        </td>
+        <td>
+            <b><font color="red">힐링 시리즈 2탄</font></b><br>
+                <br>
+                고객님, <b>솔라리아 호텔</b>은 <br>
+                <b>'고객님의 <font color="green">힐링</font>에 <font color="red">진-심</font>'</b>입니다.
             </td>
         </tr>
-    </table>
+        <tr style="
+        background-color: rgba(218,219,186);
+        ">
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            <ol>
+                <li>
+                    1) <b><font color="red">17층 이상 객실 배정</font></b> <b>(수량 한정)</b>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    - 17층~19층 객실 배정<br>
+                    명동성당 뷰 & 중국 대사관 뷰<랜덤배정>
+                </li>
+            </ul>
+            <br>
+            <ol>
+                <li>
+                    2) <b><font color="red">뷰티 힐링 패키지 제공</font></b>
+                </li>
+            </ol>
+            <ul>
+                <li>
+                    - 풋패치 *2
+                </li>
+                <li>
+                    - 마스크팩 *2<랜덤제공>
+                </li>
+                <li>
+                    - 가루 입욕제 *1
+                </li>
+            </ul>
+            <br>
+        </td>
+        <td>
+            <ol>
+                <li>
+                    - 후게츠 명동점 <b><font color="red">오코노미야키 식사권*1</font></b>
+                </li>
+                <li>
+                    - <font color="red"><b>아임밤 버블바(거품 입욕제)*1</b> (4종류 중 랜덤 제공)</font>
+                </li>
+                <li>
+                    - <font color="red"><b>1시간</b> <font color="black">무료 Late Check-out</font> (13시)</font>
+                </li>
+            </ol>
+            <br><br><br><br><br><br><br><br>
+        </td>
+        <td>
+            <ol>
+                <li>
+                    - <font color="red"><b>이미지를 클릭하여, 상세 내용을 확인해 주세요.</b></font>
+                </li>
+                <br>
+                <li>
+                    - <font color="orange"><b>박준 뷰티랩 명동점 두피관리</b></font> <font size="2pt">(7만원 상당 / 시세이도 제공 사용)</font> <br>
+                    '두피 관리' 이용 시, 사전 예약 필수!(상세 페이지 참고)
+                </li>
+                <li>
+                    - <font color="orange"><b>Late Check-out 1시간</b></font> 제공 (<font color="red"><b>13시 체크아웃</b></font> 확정)
+                </li>
+                <li>
+                    - <font color="orange"><b>입욕제</b></font>
+                </li>
+                <li>
+                    - 2인 이상 숙박 시 추가 요금 없음
+                </li>
+            </ol>
+        </td>
+    </tr>
+</table>
+<hr class="hr-sub" style="margin-top: 50px ;">
+<a href="https://www.solariaseoul.com/Members"><img src="image/banner.jpg" width="100%"></a>
 
-    <hr class="lightLine">
+<!-- 솔라리아 설명 -->
+<table  width="100%">
+    <tr>
+        <td class="hr-sect" style="padding-top: 100px; padding-bottom: 20px;">
+            솔라리아 니스테츠 호텔 서울 명동은요
+        </td>
+    </tr>
+</table>
 
+<!-- 설명 메뉴들 -->
+<table border="1" width="100%">
+    <tr height="35px">
+        <td style="
+        width: 33%;
+        background-image:url('image/메뉴 아이콘.jpg');
+        ">
+        </td>
+        <td style="
+        width: 33%;
+        background-image:url('image/홈 아이콘.jpg');
+        ">
+        </td>
+        <td  style="
+        width: 33%;
+        background-image:url('image/위치 아이콘.jpg');
+        ">
+        </td>
+    </tr>
+    <tr>
+        <td></td>
+        <td></td>
+        <td></td>
+    </tr>
+    <tr>
+        <td>
+            1
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+    <tr>
+        <td>
+            1
+        </td>
+        <td>
+            2
+        </td>
+        <td>
+            3
+        </td>
+    </tr>
+</table>
 </body>
 </html>

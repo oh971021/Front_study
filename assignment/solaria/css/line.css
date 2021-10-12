@@ -1,0 +1,30 @@
+hr {
+    line-height: 5px;
+    background: black;
+}
+
+.hr-sect {
+    display: flex;
+    flex-basis: 100%;
+    align-items: center;
+    color: black;
+    font-size: 26px;
+    margin: 0px;
+}
+
+.hr-sect::before,
+.hr-sect::after {
+    content: "";
+    flex-grow: 1;
+    background: darkkhaki;
+    height: 3px;
+    font-size: 0px;
+    line-height: 0px;
+    margin: 10px 10px;
+}
+
+.hr-sub {
+    background: rgba(0, 0, 0, 0.9);
+    margin-bottom: 50px;
+}
+

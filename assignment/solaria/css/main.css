@@ -1,12 +1,14 @@
 /* Main css : 전체적인 구성 및 틀을 잡는 CSS */
 
 body {
-    margin: 0%;
-    padding: 0%;
+    margin: none;
+    padding-left: 7%;
+    padding-right: 7%;
 }
 
 table {
     margin: auto;
+    border-spacing: 10px;
 }
 
 #logo {
@@ -15,9 +17,9 @@ table {
 
 .menu {
     padding: 15px;
-    padding-left: 35px;
-    padding-right: 35px;
-    font-size: 15pt;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 13pt;
     font-style: unset;
     font-weight: 600;
 }
@@ -26,10 +28,6 @@ table {
     margin-top: 50px;
     margin-left: auto;
     margin-right: auto;
-}
-
-.slider {
-    margin: 0%;
 }
 
 a {
@@ -42,4 +40,23 @@ a:link {
 
 a:visited { /* 링크를 사용했을 때 */
     color: black;
+}
+
+#promotionImg {
+    width: 100%;
+}
+
+ul {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    list-style-type: none;
+}
+
+ol {
+    padding-left: 0px;
+    padding-bottom: 0px;
+    list-style-type: none;
+}
+li {
+    margin: 10px 0;
 }
