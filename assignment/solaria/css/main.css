@@ -14,8 +14,8 @@ table {
 #solMenu {
     position: fixed;
     width: 100%;
+    transform: translateX(-10%);
 }
-
 
 #logo {
     margin-top: 20px;
