@@ -4,6 +4,7 @@ html, body {
     margin: 0%;
     padding: 0%;
     border: 0%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif'Tahoma','BinggraeTaom','Apple SD Gothic Neo', 'Malgun Gothic','Nanum Gothic', 'Noto Sans','sans-serif';
 }
 
 table {
@@ -90,12 +91,6 @@ li {
 
 footer {
     background: rgb(99, 95, 95);
-}
-
-#footText1 {
-    color: rgb(157, 169, 153);
-    font-size: 12pt;
-    text-align: center;
 }
 
 .footText2 {
