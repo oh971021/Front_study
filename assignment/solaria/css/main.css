@@ -1,43 +1,27 @@
 /* Main css : 전체적인 구성 및 틀을 잡는 CSS */
 
-body {
-    margin: none;
-    padding-left: 14%;
-    padding-right: 14%;
+html, body {
+    margin: 0%;
+    padding: 0%;
+    border: 0%;
 }
 
 table {
+    padding-left: 10%;
+    padding-right: 10%;
     margin: auto;
     border-spacing: 10px;
 }
 
-.solMenu1 {
+.upMenu {
+    z-index: 5;
     position: fixed;
     width: 100%;
-    transform: translateX(-10%);
+    top: 0;
+    /* transform: translateX(-14.4%); */
     background: white;
 }
 
-.solMenu2 {
-    position: fixed;
-    width: 80%;
-    margin-top: 45px;
-    transform: translateX(-6%);
-    background: white;
-}
-
-#logo {
-    margin-top: 20px;
-}
-
-.menu {
-    padding: 15px;
-    padding-left: 20px;
-    padding-right: 20px;
-    font-size: 13pt;
-    font-style: unset;
-    font-weight: 600;
-}
 
 .bx-wrapper {
     margin-top: 50px;
@@ -88,13 +72,15 @@ li {
 
 #solYoutube {
     padding-top:50px; 
+    padding-left: 14%;
+    padding-right: 14%;
     padding-bottom: 50px;
-    width:100%; 
+    width: 73%; 
 }
 
 .lastLink {
     text-align: center;
-    font-size: 18pt;
+    font-size: 13pt;
     color: gray;
 }
 
