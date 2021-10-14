@@ -45,9 +45,7 @@
     <table>
         <tr>
             <td>
-                <form action="index.html">
-                    <img src="image/Solaria.jpg" alt="Solaria" style="width: 140px;" onclick="home()">
-                </form>
+                <a href="index.html"><img src="image/Solaria.jpg" alt="Solaria" style="width: 140px;"></a>
             </td>
         </tr>
     </table>
@@ -76,7 +74,7 @@
                 <a href="https://www.solariaseoul.com/Location">Location</a>
             </td>
             <td class="menu">
-                <a href="https://be4.wingsbooking.com/SRL2"> <img src="image/예약하기.jpg" alt="예약하기"> </a>
+                <a href="https://be4.wingsbooking.com/SRL2" id="reserved">&#x1F4C5 예약하기</a>
             </td>
         </tr>
     </table>
@@ -85,16 +83,24 @@
 
 <span class="upMenu">
     <!-- 솔라리아 공지사항 -->
-    <table border="0" width="100%" style="background: rgba(218,219,186); font-size:10pt">
+    <table border="0" width="100%" style="
+    background: rgba(218,219,186); 
+    font-size:10pt;
+    padding-left:0%;
+    padding-right:0%;
+    ">
         <tr>
-            <td>
+            <td width="30%">
                 솔라리아 니시테츠 호텔 서울 명동 코로나19 방역 관련 위생 관리 및 조식 운영 안내
             </td>
-            <td>
-                &#x1F440                
+            <td width="47%" class="hoverGray">
+                <a href="https://www.solariaseoul.com/News">&#x205D 자세히</a>
             </td>
             <td>
-                &#128238
+                <a href="https://www.tripadvisor.co.kr/Hotel_Review-g294197-d7688216-Reviews-Solaria_Nishitetsu_Hotel_Seoul_Myeong_dong-Seoul.html">&#x1F440</a>
+            </td>
+            <td>
+                <a href="https://www.instagram.com/solaria_myeongdong/?igshid=4yp0pa1h6xgd">&#128238</a>
             </td>
             <td>
                 &#x1F4DE 02-773-1555
@@ -102,7 +108,7 @@
             <td>
                 &#x1F4E7 solariaseoul@nnr-h.com
             </td>
-            <td >
+            <td>
                 korea
             </td>
         </tr>
@@ -115,9 +121,9 @@
     <!-- 슬라이더 -->
     <table border="0">
         <div class="slider">
-            <div><img src="image/1.jpg"></div>
-            <div><img src="image/2.jpg"></div>
-            <div><img src="image/3.jpg"></div>
+            <div><img src="image/slide1.jpg"></div>
+            <div><img src="image/slide2.jpg"></div>
+            <div><img src="image/slide3.jpg"></div>
         </div>
     </table>
 
@@ -143,11 +149,14 @@
 <!-- 프로모션 메뉴 -->
 <table width="100%" style="border-spacing: 30px;">
     <tr height="283px">
-        <td style="background-image:url('image/promotion_1.jpg');" class="menuImg">
+        <td width="33%">
+            <img src="image/promotion_1.jpg" onmouseover="this.src='image/promotion_1_on.jpg'" onmouseout="this.src='image/promotion_1.jpg'">
         </td>
-        <td style="background-image:url('image/promotion_2.jpg');" class="menuImg">
+        <td width="33%">
+            <img src="image/promotion_2.jpg" class="proImg" onmouseover="this.src='image/promotion_2_on.jpg'" onmouseout="this.src='image/promotion_2.jpg'">
         </td>
-        <td style="background-image:url('image/promotion_3.jpg');" class="menuImg">
+        <td width="33%">
+            <img src="image/promotion_3.jpg" class="proImg" onmouseover="this.src='image/promotion_3_on.jpg'" onmouseout="this.src='image/promotion_3.jpg'">
         </td>   
     </tr>
     <tr style="
@@ -282,13 +291,13 @@
 </table>
 
 <!-- 설명 메뉴들 -->
-<table width="100%">
-    <tr height="35px">
-        <td style="background-image:url('image/메뉴 아이콘.jpg');" class="menuImg">
+<table border="0">
+    <tr height="37px">
+        <td style="background-image:url('image/메뉴 아이콘.jpg');">
         </td>
-        <td style="background-image:url('image/홈 아이콘.jpg');" class="menuImg">
+        <td style="background-image:url('image/홈 아이콘.jpg');">
         </td>
-        <td  style="background-image:url('image/위치 아이콘.jpg');" class="menuImg">
+        <td  style="background-image:url('image/위치 아이콘.jpg');">
         </td>
     </tr>
     <tr style="
@@ -300,11 +309,14 @@
         <td></td>
     </tr>
     <tr height="290px">
-        <td style="background-image:url('image/menuImg.jpg');" class="menuImg">
+        <td class="menuImg" width="33%">
+            <img src="image/menuImg.jpg" width="400px" onmouseover="this.src='image/menuImg_on.jpg'" onmouseout="this.src='image/menuImg.jpg'">
         </td>
-        <td style="background-image:url('image/homeImg.jpg');" class="menuImg">
+        <td class="menuImg" width="33%">
+                <img src="image/homeImg.jpg" width="400px" onmouseover="this.src='image/homeImg_on.jpg'" onmouseout="this.src='image/homeImg.jpg'">
         </td>
-        <td style="background-image:url('image/locationImg.jpg');" class="menuImg">
+        <td class="menuImg" width="33%">
+            <img src="image/locationImg.jpg" width="400px" onmouseover="this.src='image/locationImg_on.jpg'" onmouseout="this.src='image/locationImg.jpg'">
         </td>
     </tr>
     <tr>
@@ -355,13 +367,13 @@
     </tr>
     <tr>
         <td align="center">
-            <a href="">
+            <a href="index.html">
                 <img src="image/SolLink.jpg" width="500px">
             </a>
         </td>
         <td></td>
         <td width="33%" align="center">
-            <a href="">
+            <a href="https://nnr-h.com/">
                 <img src="image/groupLink.jpg" width="500px">
             </a>
         </td>
@@ -369,7 +381,7 @@
 </table>
 </section>
 <footer>
-    <table border="0" width="85%">
+    <table border="0" width="100%" id="footText1">
         <tr>
             <td width="25%">
                 <a href="https://www.solariaseoul.com/FloorGuide"><b><font color="#C2C38C">플로어 가이드</font></b></a>
