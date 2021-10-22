@@ -14,4 +14,12 @@
 
 ![image](https://user-images.githubusercontent.com/84692769/138420861-079eb72c-f170-49c3-b8a8-970552053eaa.png)
 
+<h5> install 로 설치해주기 </h5>
+
+![image](https://user-images.githubusercontent.com/84692769/138421121-197dab44-9ab4-450a-9800-0c537761f829.png)
+
+<h5> 확장자명을 html로 설정해서 file 만들어주고, 테스트 </h5>
+
+![image](https://user-images.githubusercontent.com/84692769/138421328-193b02dc-fbd5-4ad1-b482-95ea2a0e53c1.png)
+
 <h5> 나머지는 필요한 프로그램 설치하기 </h5>
