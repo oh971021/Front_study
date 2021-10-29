@@ -14,7 +14,7 @@
 
 ![image](https://user-images.githubusercontent.com/84692769/138420861-079eb72c-f170-49c3-b8a8-970552053eaa.png)
 
-<h5> install 로 설치해주기 </h5>
+<h5> install 로 설치해 </h5>
 
 ![image](https://user-images.githubusercontent.com/84692769/138421121-197dab44-9ab4-450a-9800-0c537761f829.png)
 
