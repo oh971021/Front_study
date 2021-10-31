@@ -18,7 +18,7 @@
 
 ![image](https://user-images.githubusercontent.com/84692769/138421121-197dab44-9ab4-450a-9800-0c537761f829.png)
 
-<h5> 확장자명을 html로 설정해서 file 만들어주고, 테스트 </h5>
+<h5> 확장자명을 html로 설정해서 file 만들어주고 테스트 </h5>
 
 ![image](https://user-images.githubusercontent.com/84692769/138421328-193b02dc-fbd5-4ad1-b482-95ea2a0e53c1.png)
 
