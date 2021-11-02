@@ -18,4 +18,4 @@ function calcAge(birth) {
     var birthdaymd = birth.substr(4, 4); 
     var age = monthDay < birthdaymd ? year - birthdayy - 1 : year - birthdayy;
     return age;
-} 
+}
