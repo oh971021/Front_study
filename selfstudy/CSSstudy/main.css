@@ -1,0 +1,177 @@
+body {
+    background-color: #eee;
+}
+ul {
+    list-style: none;
+}
+li {
+    width: 120px;
+    display: inline-block;
+    margin: 10px;
+}
+/* 특정 요소만 선택하기 */
+li a[href] {
+    padding: 5px 20px;
+    font-size: 14px;
+    text-decoration: none;
+    font-weight: bold;
+}
+li a[href="#"] {
+    cursor: default;
+}
+section {
+    width: 600px;
+    margin: 20px auto;
+    padding: 100px;
+}
+#container {
+    width: 600px;
+    margin: 20px auto;
+}
+p {
+    width: 500px;
+    padding: 10px;
+}
+/* 자식 선택자 */
+#container > p {
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
+/* 자식 선택자 */
+#container > div > p {
+    background-color: #222;
+    color: white;
+    font-weight: bold;
+}
+/* 형제 선택자 */
+h1 ~ p {
+    background-color: red;
+    color: black;
+}
+
+/* 가상 클래스 
+    :link
+    :visited
+    :hover
+    :active   */
+
+
+.navi a:link, a:visited {
+    display: block;
+    font-size: 14px;
+    color: #000;
+    padding: 10px;
+    text-align: center; 
+}
+
+.navi a:hover, .navi a:focus {
+    background-color: #222;
+    color: white;
+}
+
+.navi a:active {
+    background-color: red;
+}
+
+li.new::after {
+    content: "NEW!!";
+    font-size: x-small;
+    padding: 2px 4px;
+    margin: 0 10px;
+    border-radius: 2px;
+    background: red;
+    color: white;
+}
+
+/* 가상 요소 이동 및 애니메이션 */
+.origin {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 40px;
+}
+
+.origin > div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+.origin2 {
+    width: 100px;
+    height: 100px;
+    border: 1px solid black;
+    float: left;
+    margin: 40px;
+    /* 원근감 추가 */
+    /* 이친구는 부모요소에 넣어줘야함 */
+    perspective: 200px;
+}
+
+.origin2 > div {
+    width: 100px;
+    height: 100px;
+    background-color: orange;
+}
+
+#movex:hover {
+    transform: translateX(20px);
+    transition: all ease 2s 0s;
+}
+
+#movey:hover {
+    transform: translateY(20px);
+    transition: all ease 2s 0s;
+}
+
+#movexy:hover {
+    transform: translate(10px, 20px);
+    transition: all ease 2s 0s;
+}
+
+#rotate1:hover {
+    transform: rotate(40deg);
+    transition: all ease 2s 0s;
+}
+
+#rotate2:hover {
+    transform: rotate(-40deg);
+    transition: all ease 2s 0s;
+}
+
+#rotatex:hover {
+    transform: rotateX(55deg);
+    transition: all ease 2s 0s;
+}
+
+#rotatey:hover {
+    transform: rotateY(55deg);
+    transition: all ease 2s 0s;
+}
+
+#rotatez:hover {
+    transform: rotateZ(55deg);
+    transition: all ease 2s 0s;
+}
+
+#rotate3d:hover {
+    transform: rotate3d(2.5, 1.2, -1.5, 55deg);
+    transition: all ease 2s 0s;
+}
+
+/* 비틀기 */
+#skewx:hover {
+    transform: skewX(30deg);
+    transition: all ease 2s 0s;
+}
+
+#skewy:hover {
+    transform: skewY(30deg);
+    transition: all ease 2s 0s;
+}
+
+#skewz:hover {
+    transform: skew(-25deg, -15deg);
+    transition: all ease 2s 0s;
+}
