@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    * {padding: 0; margin: 0;}
+    body {background-color: white}
+    #wrap { width: 1200px; margin: 0 auto; }
+    .header { width: 100%; height: 150px; background-color: #81d4fa; }
+    .nav { width: 100%; height: 300px; background: #4fc3f7; }
+
+    .aside { float: left; width: 30%; height: 500px; background: #29b6f6; }
+    .section1 { width: 100%; }
+    .article1 { float: left; width: 70%; height: 250px; background: #03a9f4; }
+    .article2 { float: left; width: 70%; height: 250px; background: #039be5; }
+
+    .section2 { float: left; width: 33.3333%; height: 300px; background: #0288d1; }
+    .section3 { float: left; width: 33.3333%; height: 300px; background: #0277bd; }
+    .section4 { float: left; width: 33.3333%; height: 300px; background: #01579b; }
+
+    .section5 { clear: both; width: 96%; padding: 2%; height: 290px; background: #80d8ff; }
+    .section5 > div { float: left; width: 19%; margin: 3%; height: 220px; background: #0091ea; border-radius: 30px; }
+    .footer { width: 100%; height: 150px; background: #40c4ff; }
+
+    @media (max-width: 1220px) {
+        .section2 { width: 50%; }
+        .section3 { width: 50%; }
+        .section4 { float: none; width: 100%; height: 0; }
+        .section5 > div { width: 27.3333%; }
+        .section5 > div:nth-child(3n) { display: none; }
+    }
+
+    @media (max-width: 960px) {
+        .section2 { clear: both; float: none; width: 100%; }
+        .section3 { float: none; width: 100%; }
+        .section5 { height: 200px; }
+        .section5 > div { height: 140px; }
+    }
+
+    @media (max-width: 768px) {
+        .aside { float: none; width: 100%; height: 250px; }
+        .article1 { float: none; width: 100%; }
+        .article2 { float: none; width: 100%; }
+        .section5 { height: 900px; }
+        .section5 > div { float: none; width: 94%; height: 260px; }
+    }
+</style>
+<body>
+    <div id="wrap">
+        <header class="header"></header>
+        <nav class="nav"></nav>
+        <aside class="aside"></aside>
+        <section class="setion1">
+            <article class="article1"></article>
+            <article class="article2"></article>
+        </section>
+        <section class="section2"></section>
+        <section class="section3"></section>
+        <section class="section4"></section>
+        <section class="section5">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </section>
+        <footer class="footer"></footer>
+    </div>
+
+</body>
+</html>
