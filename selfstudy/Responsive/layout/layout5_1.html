@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>layout3</title>
+</head>
+<style>
+    * { padding: 0; margin: 0; }
+    #wrap { width: 2200px; height: 150px; margin: 0 auto; }
+    body { background-color: #e3f3fd; }
+    .header { width: 100%; height: 200px; background: #e8f5e9; }
+    .nav { float: left; width: 30%; height: 1500px; background: #c8e6c9; }
+    .article1 { float: left; width: 70%; height: 500px; background: #a5d6a7; }
+    .article2 { float: left; width: 70%; height: 500px; background: #81c784; }
+    .article3 { float: left; width: 70%; height: 500px; background: #66bb6a; }
+    .footer { clear: both; width: 100%; height: 200px; background: #4caf50; }
+
+    /* 화면 너비 0 ~ 2440px */
+    @media (max-width: 2460px) {
+        #wrap { width: 100%; }
+        .article1 {height: 750px;}
+        .article2 {height: 750px;}
+        .article3 {float: none; width: 100%;}
+    }
+
+    /* 화면 너비 0 ~ 1680px */
+    @media (max-width: 1680px) {
+        .nav { width: 100%; height: 500px; }
+        .article1 { width: 50%; height: 1000px;}
+        .article2 { width: 50%; height: 1000px;}
+        .article3 { clear: both; }
+    }
+
+    /* 화면 너비 0 ~ 768px */
+    @media (max-width: 768px) {
+        .article1 { width: 100%; }
+        .article2 { width: 100%; }
+    }
+</style>
+<body>
+    <div id="wrap">
+        <header class="header"></header>
+        <nav class="nav"></nav>
+        <section class="article1"></section>
+        <section class="article2"></section>
+        <section class="article3"></section>
+        <footer class="footer"></footer>
+    </div>
+</body>
+</html>
