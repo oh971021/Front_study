@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 리셋 */
+    * { margin: 0; padding: 0; }
+
+    /* 전체 레이아웃 */
+    #wrap { width: 100%; font-size: 30pt; color: #fff; text-align: center; }
+    #header { height: 140px; }
+    #banner { height: 450px; background-color: #ef9a9a; }
+    #contents { height: 950px; background-color: #333; }
+    #footer { eight: 220px; background-color: #444; }
+
+    /* 레이아웃 */
+    #header-top { height: 70px; background-color: #ffebee; line-height: 70px;}
+    #header-nav { height: 70px; background-color: #ffcdd2; line-height: 70px;}
+    #content1 { height: 90px; background-color: #e57373; line-height: 90px;}
+    #content2 {  height: 480px; background-color: #ef5350; line-height: 480px;}
+    #content3 { height: 380px; background-color: #f44336; line-height: 380px;}
+    #footer-nav { height: 60px; background-color: #e53935; line-height: 60px;}
+    #footer-info { height: 160px; background-color: #d32f2f; line-height: 160px;}
+
+    /* 컨테이너 (가운데 영역) */
+    .container { width: 1100px; margin: 0 auto; height: inherit; background-color: rgba(0,0,0,0.3); }
+
+</style>
+<body>
+    <!-- 전체적인 틀 : ID / 반복되는 부분 : CLASS -->
+    <div id="wrap">
+        <div id="header">
+            <div id="header-top">
+                <div class="container">header-top</div>
+            </div>
+            <div id="header-nav">
+                <div class="container">header-nav</div>
+            </div>
+        </div> 
+        <!-- heaqder -->
+
+        <div id="banner">
+            <div class="container">banner</div>
+        </div> 
+        <!-- banner -->
+
+        <div id="contents">
+            <div id="content1">
+                <div class="container">content1</div>
+            </div>
+            <div id="content2">
+                <div class="container">content2</div>
+            </div>
+            <div id="content3">
+                <div class="container">content3</div>
+            </div>
+        </div> <!-- contents -->
+
+        <div id="footer">
+            <div id="footer-nav">
+                <div class="container">footer-nav</div>
+            </div>
+            <div id="footer-info">
+                <div class="container">footer-info</div>
+            </div>
+        </div> <!-- footer -->
+    </div>
+</body>
+</html>
