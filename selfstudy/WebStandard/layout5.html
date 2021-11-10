@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    /* 실무에선 쓰지 않는다. */
+    * { margin: 0; padding: 0; }
+    #wrap { font-size: 40pt; text-align: center; text-transform: uppercase; color: #fff; }
+    #header-wrap { background-color: #ffebee; }
+    #banner-wrap { background-color: #ffcdd2; }
+    #contents-wrap { background-color: #ef9a9a; }
+    #footer-wrap { background-color: #e57373; }
+
+    .header-container { width: 1000px; height: 100px; line-height: 100px; margin: 0 auto; background-color: #ef5350; }
+    .banner-container { width: 1000px; height: 300px; line-height: 300px; margin: 0 auto; background-color: #f44336; }
+    .contents-container { width: 1000px; height: 500px; line-height: 500px; margin: 0 auto; background-color: #e53935;}
+    .footer-container { width: 1000px; height: 100px; line-height: 100px; margin: 0 auto; background-color: #d32f2f; }
+</style>
+<body>
+    <div id="wrap">
+        <div id="header-wrap">
+            <div class="header-container">header</div>
+        </div>
+        <div id="banner-wrap">
+            <div class="banner-container">banner</div>
+        </div>
+        <div id="contents-wrap">
+            <div class="contents-container">contents</div>
+        </div>
+        <div id="footer-wrap">
+            <div class="footer-container">footer</div>
+        </div>
+    </div>
+</body>
+</html>
