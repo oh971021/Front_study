@@ -5,7 +5,7 @@
 ### 1. 사용 IDE 설치하기
 ##### 1) <a href="https://code.visualstudio.com/Download"> vscode 설치 </a>
 
-<h5> 사용자 환경에 맞춰 설치 </h5>
+<h5> 사용자 환경에 맞춰서 설치 </h5>
 
 ![image](https://user-images.githubusercontent.com/84692769/138420255-91941eef-77d2-4fdd-ac40-771c74449523.png) ![image](https://user-images.githubusercontent.com/84692769/138420497-bf3c7f80-1140-4b55-869e-7eb5891a9cb2.png)
 ![image](https://user-images.githubusercontent.com/84692769/138420518-4a8ec9a5-2ee1-4b0a-a408-e9c1f1a2c8ce.png) ![image](https://user-images.githubusercontent.com/84692769/138420537-f2fded6e-f3d9-49ee-aaa7-f0a7a788d686.png)
