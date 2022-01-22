@@ -24,4 +24,4 @@
 
 ![image](https://user-images.githubusercontent.com/84692769/138421328-193b02dc-fbd5-4ad1-b482-95ea2a0e53c1.png)
 
-<h5> 나머지는 필요한 프로그램 설치하기 </h5>
+<h5> 나머지는 필요한 프로그램 설치 </h5>
