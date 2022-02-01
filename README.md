@@ -2,7 +2,7 @@
 
 ##### 사용툴 : VSCode, HTML5, CSS3, JS, FileZilla
 
-### 1. 사용 IDE 설치하기
+### 1. 사용 IDE 설치
 ##### 1) <a href="https://code.visualstudio.com/Download"> vscode 설치 </a>
 
 <h5> 사용자 환경에 맞춰서 설치 </h5>
